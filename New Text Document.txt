@@ -1,0 +1,11 @@
+Simple Explanation of the project :
+This project represents a scalable e-commerce database system designed using SQL Server.
+The system includes core entities such as Users, Products, Orders, OrderItems, and Categories.
+Relationships were implemented using foreign keys to ensure data integrity.
+Soft delete was applied using the IsDeleted column.
+Various SQL queries were created to simulate real-world scenarios such as order tracking, sales analysis, and product filtering.
+
+ERD Explanation :
+Each user can have multiple orders (1-M relationship).
+Each order can contain multiple products through OrderItems.
+Products belong to categories, forming another 1-M relationship.
